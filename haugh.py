@@ -6,7 +6,7 @@ from mpl_toolkits.mplot3d import Axes3D
 from matplotlib import cm
 from matplotlib.ticker import LinearLocator, FormatStrFormatter
 
-def main()
+def main():
 
     img = cv2.imread("dashed-line.png")
     gray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
